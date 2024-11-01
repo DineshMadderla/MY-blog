@@ -11,7 +11,7 @@ export default function CallToAction() {
             Built using Typescript, MERN stack
             </p>
             <Button gradientDuoTone='purpleToPink' className='rounded-tl-xl rounded-bl-none'>
-                <a href="https://e-commerce-ni60nyt7n-dineshs-projects-b9fd8385.vercel.app" target='_blank' rel='noopener noreferrer'>
+                <a href="https://ecommerce-frontend-nph5reww3-dineshs-projects-b9fd8385.vercel.app" target='_blank' rel='noopener noreferrer'>
                     Project Live Demo
                 </a>
             </Button>
