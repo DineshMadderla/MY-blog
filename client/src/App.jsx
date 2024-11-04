@@ -14,6 +14,9 @@ import UpdatePost from './pages/UpdatePost';
 import PostPage from './pages/PostPage';
 import ScrollToTop from './components/ScrollToTop';
 import Search from './pages/Search';
+import FutureUpdates from './pages/futureUpdates';
+import Terms_Conditions from './pages/terms-conditions';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 
 export default function App() {
   return (
@@ -36,6 +39,10 @@ export default function App() {
 
         <Route path='/projects' element={<Projects />} />
         <Route path='/post/:postSlug' element={<PostPage />} />
+        <Route path='/future-updates' element={<FutureUpdates />} />
+        <Route path='/terms-conditions' element={<Terms_Conditions />} />
+        <Route path='/privacy-policy' element={<PrivacyPolicy />} />
+
       </Routes>
       <Footer />
     </BrowserRouter>
